@@ -1,0 +1,71 @@
+body{
+  color: #fff; /*letras em brranco*/
+  background-color: #090909; /* fundo preto*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px; /*tamanho de letra*/
+}
+nav a:hover{   /*hover é quando passar o mouse sobre mim/projetos/contato fica da cor programada*/
+  color:#00ffff;
+}
+
+ul{
+  display: flex; /*coloca os itesn um do lado o outro*/
+  justify-content: space-between;  /* distribuie os item na horizontal*/
+  list-style-type: none; /*tira as bolinhas*/
+  align-items: center; /* alinha na vertical para ficar reto na horizontal*/
+  padding: 16px; /* uma distamcia da borda */
+}
+
+a{
+  color:#fff; /*o texto tinha ficado azul por defoul so trocar a color dos itens itens/projec/contac*/
+  text-decoration: none; /* retira a linha inferioi que se cria en cada item*/
+}
+
+header img{   /* quando a imagem fica muito grnde se estiiza  e estou especificando com heder img que so quero que seja modificada a imagem, sem colocar so img se ira modificar tudas as img do html*/
+  width: 150px; 
+  height: 150px;
+  border-radius: 50%;  /* foto foca circular*/
+  border: 5px solid #5bbe42; /*borde na foto*/
+  padding: 2px; 
+}
+
+.center{
+  text-align: center; /*alinha no centro a foto*/
+}
+
+h1{
+  color: aqua; /* cor da letra ma paula*/
+}
+
+footer img{
+  width: 50px;
+  height: 50px;
+
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer a{
+  margin:20px;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 6px;
+}
+.conteiner{
+  padding: 0px 50px;  /*0px encima em baixo /50px direita esq*/
+}
+h1{
+  text-align: center;
+}
+section div img{
+  width: 25px; 
+  height: 25px;
+  border-radius: 50%;  /* foto foca circular*/
+  border: 2px solid #5bbe42; /*borde na foto*/
+  padding: 1px;
+}
